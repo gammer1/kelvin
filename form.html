@@ -5,19 +5,52 @@
     </head>
     <body>
         <form>
+            <fieldset>
+                <legend>PERSONAL INFORMATION</legend>
            <label for="fname" >firstname:</label>
-            <input type="text" name="fname" id="fname"><br>
+            <input type="text" name="fname" id="fname" required><br>
             <label for="lname">lastname:</label>
-            <input type="text" name="lname" id="lname"><br>
+            <input type="text" name="lname" id="lname" required><br>
             <label for="email."> email:</label>
-            <input type="email" name="email" id="email"><br>
+            <input type="email" name="email" id="email" required><br>
            <label for="password">password:</label>
-            <input type="password" name="password" id="password"><br>
+            <input type="password" name="password" id="password" required><br>
             gender:<br>
             <label>male</label>
-            <input type="checkbox" name="gender" id="male"><br>
+            <input type="radio" name="gender" id="male"><br>
             <label>female</label>
-            <input type="checkbox" name="gender" id="female">
+            <input type="radio" name="gender" id="female"><br>
+            Date of birth:
+            <input type="date"><br>
+            hobbies:<br> 
+            <input type="checkbox" id="reading">
+            <label for="reading">raedimg</label><br>
+            <input type="checkbox" id="travelling">
+            <label for="travelling">travelling</label><br>
+            <input type="checkbox" id="cycling">
+            <label for="cycling">cycling</label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Academic information</legend>
+            course:
+            <select>
+                <option value="web programming">web programming</option>
+                <option value="Andriod">Andriod</option>
+                <option value="data analytics">data analytics</option>
+                <option value="cyber securirty">cyber securirty</option>
+            </select><br>
+            units:
+            <select multiple="multiple">
+                <option>Networking</option>
+                <option>Databases</option>
+                <option>Accounting</option>
+                <option>Stastics</option>
+            </select>
+            commets:<br>
+             <textarea rows="5" cols="30">enter comments</textarea><br>
+            </fieldset>
+             <input type="submit" value="submit">
+             <input type="reset" value="clear form">
 
         </form>
     </body>

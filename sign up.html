@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGN UP</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>PERSONAL INFORMATION</legend>
+            salutation:
+            <select>
+                <option value="none">none</option>
+                <option>madam</option>
+                <option>sir</option>
+            </select><br>
+            <label for="fname">Name:</label>
+            <input type="text" name="fname" id="fname" required ><br>
+           <label for="email">Email:</label> 
+            <input type="email" name="email" id="email"  required><br>
+            Location:
+            <select>
+            <option>Nairobi</option>
+            <option>Nakuru</option>
+            <option>Kericho</option>
+            <option>Mombasa</option>
+            </select><br>
+            <label for="number">Age:</label>
+            <input type="number" name="number" id="number"  required><br>
+            Gender:<br>
+            <label>Male</label>
+            <input type="radio" name="gender" id="male"><br>
+            <label>female</label>
+            <input type="radio" name="gender" id="female"><br>
+            Address:
+            <input type="text" name="address" id="address"  required>
+        </fieldset>
+        <input type="submit">
+        </form>
+    </body>
+</html>
