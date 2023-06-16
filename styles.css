@@ -11,6 +11,6 @@ color:red;
 background-color:#ccffcc}
 li em {color:red;
 font-weight:bold;}
-ul {magin-left:2cm;}
-ul,ul {text-decoration:underline;
+ul li {magin-left:2cm;}
+ul ul {text-decoration:underline;
 margin-left:.5cm;}
