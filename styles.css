@@ -1,2 +1,16 @@
-p{color:brown;}
-h2{color:blue;}
+p{color:brown; font-weight: bold; 
+    font-family: Georgia; 
+    font-size: 24px;
+     /* background-image: url("/images/squarepants") */
+     background: url("/images/squarepants") no-repeat fixed top
+    }
+h2,h3 {color:blue;}
+a {text-decoration:none;}
+a:{text-decoration: underline;
+color:red;
+background-color:#ccffcc}
+li em {color:red;
+font-weight:bold;}
+ul {magin-left:2cm;}
+ul,ul {text-decoration:underline;
+margin-left:.5cm;}
