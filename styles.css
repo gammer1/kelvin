@@ -4,13 +4,55 @@ p{color:brown; font-weight: bold;
      /* background-image: url("/images/squarepants") */
      background: url("/images/squarepants") no-repeat fixed top
     }
-h2,h3 {color:blue;}
+h2,h3 {color:blue;
+border-color: blueviolet;
+border-style: solid;
+border-width: 2px;}
+
 a {text-decoration:none;}
+
 a:{text-decoration: underline;
 color:red;
 background-color:#ccffcc}
+
 li em {color:red;
 font-weight:bold;}
+
 ul li {magin-left:2cm;}
+
 ul ul {text-decoration:underline;
 margin-left:.5cm;}
+
+#one{color:blue;}
+
+.example{color:purple;}
+
+div{background-color:beige;
+border-color: blue;
+border-style: dashed;
+padding: 20px;
+margin:20px;}
+
+#two{margin: 0;
+padding: 0;}
+
+ul{list-style-type:none;
+margin: 0;
+padding: 0;
+border-color:#000000;
+border-radius:1px;
+border-style:solid;
+background-color: #ff938e;}
+
+li {color:#42c3fc;
+display:inline-block;
+text-align:center;
+padding:20px;
+}
+
+li a{text-decoration:none;}
+
+li a:hover{color:yellow;
+background-color:gray;}
+
+li a:after{color:blue;}
