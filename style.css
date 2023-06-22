@@ -103,8 +103,9 @@
     }
 
     .shop-items{
-        display: ;
         flex-wrap: wrap;
+        display: flex;
+        margin-bottom: 15px;
     }
 
     .shop-item{
@@ -113,7 +114,7 @@
 
     .shop-item-details{
         display:flex;
-        align-items: center;
+        align-items:center;
         padding: 5px;
     }
 
@@ -122,14 +123,16 @@
         color: blue;
         font-weight: bold;
         width: 100%;
+        text-align: center;
         margin-bottom: 15px;
         font-size: 1.5em;
     }
 
-    .shop-item-prize{
+    .shop-item-price{
         color:red;
         font-weight:bold;
-        flex: 1;
+        flex-grow: 1;
+        padding: 5px;
     }
 
 
