@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Raleway:ital,wght@1,600&family=Roboto&display=swap');
+.body{
+    margin: 0%;
+    font-family: Kablammo;
+}
+.main-header{
+    background-color: rgb(0,0,0,.6);
+    background-image: url(Images/Header\ Background.jpg);
+    background-size: cover;
+    background-blend-mode:multiply;
+    padding-bottom: 30px;
+}
+
+.main-nav{
+    text-align: center;
+    font-size:large;
+    border-bottom: seagreen 1px solid;
+}
+
+.main-nav ul{
+    list-style-type:none;
+}
+
+.main-nav li{
+    display:inline;
+    padding: 0 5%;
+}
+
+.main-nav a{
+    color:white;
+    display: inline-block;
+}
+
+.main-nav a:hover {
+    color:blue;
+}
+
+.head-title {
+    text-align: center;
+}
+
+.main-footer{
+    background-color: aqua;
+    color:white;
+    padding:.20em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.main-footer ul {
+    list-style-type:none;
+    text-align: center;
+}
+
+.main-footer li {
+    display:inline;
+    padding: 0 .5em;
+    
+
+}
+
+.main-footer img{
+    height: 30px;
+    width: 30px;
+}
+
+
+    .about-img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        float: left;
+    }
+
+    .band-name{
+        text-align:center;
+        color:white;
+        margin: 0;
+        font-size: 4em;
+    }
+    .container{
+        margin: 0 auto;
+        max-width:900px;
+        padding:0 1.5em;
+    }
+
+    .heading-three{
+        text-align:center;
+    }
+    
+    .section-header{
+        text-align: center;
+        font-family: Kablammo;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
