@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Raleway:ital,wght@1,600&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
 .body{
     margin: 0%;
     font-family: Kablammo;
@@ -24,7 +28,7 @@
 }
 
 .main-nav li{
-    display:inline;
+    display:inline-block;
     padding: 0 5%;
 }
 
@@ -96,6 +100,34 @@
     .section-header{
         text-align: center;
         font-family: Kablammo;
+    }
+
+    .shop-items{
+        display: ;
+        flex-wrap: wrap;
+    }
+
+    .shop-item{
+        margin:50px;
+    }
+
+    .shop-item-details{
+        display:flex;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .shop-item-title{
+        display: block;
+        color: blue;
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 1.5em;
+    }
+
+    .shop-item-prize{
+        color
     }
 
 
