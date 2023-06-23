@@ -82,6 +82,7 @@
     }
 
     .band-name{
+        font-family: myfont;
         text-align:center;
         color:white;
         margin: 0;
@@ -134,7 +135,12 @@
         flex-grow: 1;
         padding: 5px;
     }
-
+    
+    @font-face{
+        font-family: myfont;
+        src:url(Fonts/Booter\ -\ Zero\ Zero.woff) format("woff"),
+            url(fonts/booter\ -\zero\zero.woff2) format("woff2");
+    }
 
 
 
