@@ -142,6 +142,35 @@
             url(fonts/booter\ -\zero\zero.woff2) format("woff2");
     }
 
+    .tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    }
+
+    .tour-date{
+        width: 11%;
+        font-weight: bold;
+        color: brown;
+    }
+
+    .tour-city{
+        width: 25%;
+    }
+
+    .tour-item{
+        display: inline-block;
+    }
+
+    .tour-arena{
+        width: 42%;
+    }
+
+    .btntour{
+        background-color: aqua;
+        border: none;
+        border-radius: 10px;
+    }
 
 
 
