@@ -1,0 +1,14 @@
+.container{
+    margin: 0 auto;
+    max-width:900px;
+    padding:0 1.5em;
+    
+}
+
+.facebook-img{
+    margin-bottom: 60%;
+}
+
+.fb{
+    color: blue;
+}

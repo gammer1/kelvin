@@ -49,9 +49,6 @@
     background-color: aqua;
     color:white;
     padding:.20em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 
 }
 
@@ -170,6 +167,26 @@
         background-color: aqua;
         border: none;
         border-radius: 10px;
+    }
+
+    .cart-row{
+        display:flex;
+    }
+
+    .cart-column{
+        display:flex;
+        align-items:center;
+        border-bottom:1px solid red;
+        margin-right:1.5em;
+        padding-bottom:10px;
+        margin-top: 10px;
+        width:100%;
+    }
+
+    .cart-total{
+        text-align:end;
+        margin-top:10px;
+        margin-right:10px;
     }
 
 

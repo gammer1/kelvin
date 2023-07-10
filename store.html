@@ -3,6 +3,7 @@
     <head class="head">
         <title>store</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="external.js" async></script>
     </head>
     <body>
        <header class="main-header">
@@ -18,65 +19,80 @@
     <section class="container">
         <h1 class="section-header">music</h1>
         <p>this is a <em>sample</em> paragrah</p>
+        <p id="one">hello</p>
         <!--creating a div-->
         <div class="shop-items">
             <div class="shop-item">
                 <strong class="shop-item-title">Album 1</strong>
-                <img src="/Images/Album 1.png">
+                <img class="shop-item-image" src="/Images/Album 1.png">
             </div>
             <div class="shop-item-details">
                 <span class="shop-item-price">$12.99</span>
-                <button type="button">ADD TO CART</button>
+                <button class="shop-item-button" id="one" type="button">ADD TO CART</button>
             </div>
         </div>
 <!--SECOND ALBUM-->
 <div class="shop-items">
     <div class="shop-item">
         <strong class="shop-item-title">Album 2</strong>
-        <img src="/Images/Album 2.png">
+        <img class="shop-item-image" src="/Images/Album 2.png">
     </div>
     <div class="shop-item-details">
         <span class="shop-item-price">$10.00</span>
-        <button type="button">ADD TO CART</button>
+        <button class="shop-item-button" type="button">ADD TO CART</button>
     </div>
 </div>
     <!--THRID ALBUM-->
     <div class="shop-items">
     <div class="shop-item">
         <strong class="shop-item-title">Album 3</strong>
-        <img src="/Images/Album 3.png">
+        <img class="shop-item-image" src="/Images/Album 3.png">
     </div>
     <div class="shop-item-details">
         <span class="shop-item-price">$6.99</span>
-        <button type="button">ADD TO CART</button>
+        <button class="shop-item-button" type="button">ADD TO CART</button>
     </div>
     </div>
     <!--FOURTH ALBUM-->
     <div class="shop-items">
     <div class="shop-item">
         <strong class="shop-item-title">Album 4</strong>
-        <img src="/Images/Album 4.png">
+        <img class="shop-item-image" src="/Images/Album 4.png">
     </div>
     <div class="shop-item-details">
         <span class="shop-item-price">$9.45</span>
-        <button type="button">ADD TO CART</button>
+        <button class="shop-item-button" type="button">ADD TO CART</button>
     </div>
     </div>
         <p class="band-name">store</p>
     </section>
     <section>
-        <h2 class="header">MERCH </h2>
+        <!-- <h2 class="header">MERCH </h2>
         <div class="shop-items">
         <div class="shop-item">
             <strong class="shop-item-title">T-shirt</strong>
-            <img src="/Images/Shirt.png">
-        </div>
-        <div class="shop-item-details">
+            <img class="shop-item-image" src="/Images/Shirt.png">
+        </div> -->
+        <!-- <div class="shop-item-details">
             <span class="shop-item-price">$3.00</span>
-            <button type="button">ADD TO CART</button>
-        </div>
+            <button class="shop-item-button" type="button">ADD TO CART</button>
+        </div> -->
     </div>
 </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Cart</h2>
+        <div class="cart-row">
+            <span class="cart-column">ITEM</span>
+            <span class="cart-column">PRICE</span>
+            <span class="cart-column">QUANTITY</span>
+        </div>
+
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <strong>Total</strong>
+            <span>0$</span>
+        </div>
     </section>
         <footer class="main-footer">
             <h3 class="heading-three">The generics</h3>
