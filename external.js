@@ -51,6 +51,183 @@ function removecartitem(event){
 `
 cartrow.innerHTML=cartrowcontents
 cartitems.append(cartrow)
-cartrow.getElementsByClassName("btn-danger")[0].addEventListener("click",removecartitem)
+cartrow.getElementsByClassName("btn-remove")[0].addEventListener("click",removecartitem)
 cartrow.getElementsByClassName("cart-quantity-input")[0].addEventListener("click", quantityChanged)
     }
+
+    function quantityChanged(event){
+        var inputchanged=event.target
+        if(isNaN(inputchanged.value) || inputchanged.value<=0){
+            inputchanged.value=1
+        }
+    updateCartTotal()
+    }
+
+    function updateCartTotal(){
+        var cartItemContainer= document.getElementsByClassName("cart-items")[0]
+        var cartRows= cartItemContainer.getElementsByClassName("cart-row")
+        var total=0
+        for(i=0;cartRows.length<1;i++){
+         var cartrow=cartRows[i]
+         var priceelement=cartrow.getElementsByClassName("cart-price")[0]
+         var quantityElement=cartrow.getElementsByClassName("cart-quantity-input")[0]
+         var price=parseFloat(priceelement.innerText.replace('$',''))
+         var quantity=quantityElement.value
+         total=total + (price * quantity)
+        }
+        total=Math.round(total * 100)/100
+        document.getElementsByClassName('cart-total-price')[0].innerText='$'+ total
+     
+     }
+
+     function removeCartItem(event){
+        var buttonclicked=event.target
+        buttonclicked.parentElement.parentElement.remove()
+        updateCartTotal()
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
